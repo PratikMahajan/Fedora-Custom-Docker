@@ -1,6 +1,8 @@
 # Fedora-Custom-Docker
 Custom Fedora image with required softwares
 
+##### Looking for smaller and lightweight image? see [here](https://github.com/PratikMahajan/Alpine-Custom-Docker)
+
 ### To Build the docker image 
 `make docker-build`
 
