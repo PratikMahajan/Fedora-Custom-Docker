@@ -20,4 +20,7 @@ Custom Fedora image with required softwares
 
 ## Installed Softwares:
 1. Git
-
+2. wget 
+3. bind-utils 
+4. oc 
+5. kubectl
