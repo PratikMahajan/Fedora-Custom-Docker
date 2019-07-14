@@ -21,3 +21,6 @@ function header_text {
 
 header_text  "Installing Git"
 dnf -y install git
+
+header_text "Instaling wget and bind-utils"
+dnf -y install wget bind-utils
