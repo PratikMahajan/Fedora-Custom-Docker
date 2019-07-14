@@ -1,7 +1,12 @@
 FROM fedora:latest
 
-COPY installer.sh /installer.sh
-RUN chmod 777 /installer.sh
+COPY install /install
+RUN chmod 777 -R install
 
-RUN ["./installer.sh"]
+RUN ["./install/cloud.sh"]
+RUN ["./install/commandline.sh"]
+RUN ["./install/clean.sh"]
 
+
+WORKDIR /home/cloud
+ENTRYPOINT /bin/bash
